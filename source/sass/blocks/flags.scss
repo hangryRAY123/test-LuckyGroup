@@ -1,0 +1,117 @@
+.flags {
+  &__list {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 40%;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    animation: circle 5s 6s linear infinite;
+  }
+
+  @keyframes circle {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  &__item {
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+    margin: auto;
+  }
+
+  &__img {
+    animation: around 5s 6s linear infinite;
+  }
+
+  @keyframes around {
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+
+  #flag-1 {
+    z-index: 2;
+    width: 90px;
+    height: 90px;
+    animation: side-1 2s 3s forwards;
+    offset-path: ray(0deg);
+  }
+
+  @keyframes side-1 {
+    to {
+      transform: translate(-265px, 40px);
+      offset-path: ray(90deg);
+    }
+  }
+
+  #flag-2 {
+    z-index: 2;
+    width: 140px;
+    height: 140px;
+    animation: side-2 2s 3.4s forwards;
+    offset-path: ray(0deg);
+  }
+
+  @keyframes side-2 {
+    to {
+      transform: translate(-220px, -120px);
+      offset-path: ray(90deg);
+    }
+  }
+
+  #flag-3 {
+    z-index: 2;
+    width: 110px;
+    height: 110px;
+    animation: side-3 2s 3.8s forwards;
+    offset-path: ray(0deg);
+  }
+
+  @keyframes side-3 {
+    to {
+      transform: translate(-10px, -210px);
+      offset-path: ray(90deg);
+    }
+  }
+
+  #flag-4 {
+    z-index: 2;
+    width: 120px;
+    height: 120px;
+    animation: side-4 2s 4.2s forwards;
+    offset-path: ray(0deg);
+  }
+
+  @keyframes side-4 {
+    to {
+      transform: translate(160px, -60px);
+      offset-path: ray(90deg);
+    }
+  }
+
+  #flag-5 {
+    z-index: 2;
+    width: 90px;
+    height: 90px;
+    animation: side-5 2s 4.6s forwards;
+    offset-path: ray(0deg);
+  }
+
+  @keyframes side-5 {
+    to {
+      transform: translate(160px, 70px);
+      offset-path: ray(90deg);
+    }
+  }
+}

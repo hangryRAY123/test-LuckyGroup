@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Описание проекта" />
+    <title>Global</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="icon" href="img/favicon/favicon-16x16.png" type="image/png" />
+    <link rel="icon" href="favicon/favicon-32x32.png" type="image/png" />
+    <link rel="icon" href="img/favicon/favicon-16x16.webp" type="image/webp" />
+    <link rel="icon" href="favicon/favicon-32x32.webp" type="image/webp" />
+    <link
+      rel="apple-touch-icon"
+      href="img/favicon/favicon-152x152.png"
+      type="image/png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="img/favicon/favicon-152x152.webp"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="fonts/Poppins-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="fonts/Poppins-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header header--nojs">
+        <div class="header__wrapper container">
+          <img
+            class="header__logo"
+            src="img/svg/logo.svg"
+            width="131"
+            height="40"
+            alt="Global."
+          />
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link nav__link--current">Mobile Top Up</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">About</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Rate</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Help</a>
+              </li>
+            </ul>
+            <button class="nav__toggle" type="button">
+              <span class="visually-hidden">Открыть меню.</span>
+            </button>
+          </nav>
+          <a class="header__sign-up btn" href="#">Sign Up</a>
+        </div>
+      </header>
+      <main>
+        <section class="intro">
+          <div class="intro__wrapper container">
+            <div class="intro__inner">
+              <h1 class="intro__title">
+                Now Buy Your <br />
+                PIN or <a href="#">Top Up</a> <br />
+                With Bank Transfer
+              </h1>
+              <p class="intro__description">
+                We Make international calling simple, relible, and cheap basedon
+                your unique calling behavior.
+              </p>
+              <a href="#" class="intro__link btn">Get Started</a>
+              <form>
+                <div>
+                  <input
+                    class="intro__search"
+                    type="text"
+                    name="search"
+                    placeholder="Where do you want to call?"
+                    autocomplete="off"
+                    minlength="4"
+                    maxlength="14"
+                  />
+                  <button class="intro__search-btn" type="submit">
+                    <svg
+                      aria-hidden="true"
+                      focusable="false"
+                      width="26"
+                      height="26"
+                    >
+                      <use href="img/sprite.svg#search"></use>
+                    </svg>
+                    <span class="visually-hidden">Поиск.</span>
+                  </button>
+                </div>
+              </form>
+              <div class="intro__user user">
+                <ul class="user__list">
+                  <li class="user__item">
+                    <picture
+                      ><source
+                        type="image/webp"
+                        srcset="
+                          img/intro/user-1.webp    1x,
+                          img/intro/user-1@2x.webp 2x
+                        " />
+                      <img
+                        src="img/intro/user-1.png"
+                        srcset="
+                          img/intro/user-1.png    1x,
+                          img/intro/user-1@2x.png 2x
+                        "
+                        width="38"
+                        height="38"
+                        alt="User-1."
+                    /></picture>
+                  </li>
+                  <li class="user__item">
+                    <picture
+                      ><source
+                        type="image/webp"
+                        srcset="
+                          img/intro/user-2.webp    1x,
+                          img/intro/user-2@2x.webp 2x
+                        " />
+                      <img
+                        src="img/intro/user-2.png"
+                        srcset="
+                          img/intro/user-2.png    1x,
+                          img/intro/user-2@2x.png 2x
+                        "
+                        width="38"
+                        height="38"
+                        alt="User-2."
+                    /></picture>
+                  </li>
+                  <li class="user__item">
+                    <picture
+                      ><source
+                        type="image/webp"
+                        srcset="
+                          img/intro/user-3.webp    1x,
+                          img/intro/user-3@2x.webp 2x
+                        " />
+                      <img
+                        src="img/intro/user-3.png"
+                        srcset="
+                          img/intro/user-3.png    1x,
+                          img/intro/user-3@2x.png 2x
+                        "
+                        width="38"
+                        height="38"
+                        alt="User-3."
+                    /></picture>
+                  </li>
+                </ul>
+                <span class="user__info"
+                  >45k+ Regular User. <a href="#">View Price Plan</a></span
+                >
+              </div>
+            </div>
+            <div class="intro__animation flags">
+              <ul class="flags__list">
+                <li class="flags__item" id="flag-1">
+                  <img
+                    class="flags__img"
+                    src="img/sprite/flag-3.svg"
+                    width="90"
+                    height="90"
+                    alt="Flag-1."
+                  />
+                </li>
+                <li class="flags__item" id="flag-2">
+                  <img
+                    class="flags__img"
+                    src="img/sprite/flag-1.svg"
+                    width="140"
+                    height="140"
+                    alt="Flag-2."
+                  />
+                </li>
+                <li class="flags__item" id="flag-3">
+                  <img
+                    class="flags__img"
+                    src="img/sprite/flag-2.svg"
+                    width="110"
+                    height="110"
+                    alt="Flag-3."
+                  />
+                </li>
+                <li class="flags__item" id="flag-4">
+                  <img
+                    class="flags__img"
+                    src="img/sprite/flag-3.svg"
+                    width="120"
+                    height="120"
+                    alt="Flag-4."
+                  />
+                </li>
+                <li class="flags__item" id="flag-5">
+                  <img
+                    class="flags__img"
+                    src="img/sprite/flag-3.svg"
+                    width="100"
+                    height="100"
+                    alt="Flag-5."
+                  />
+                </li>
+              </ul>
+              <picture
+                ><source
+                  type="image/webp"
+                  srcset="img/intro/girl.webp 1x, img/intro/girl@2x.webp 2x" />
+                <img
+                  class="intro__img"
+                  src="img/intro/girl.png"
+                  srcset="img/intro/girl.png 1x, img/intro/girl@2x.png 2x"
+                  width="280"
+                  height="557"
+                  alt="Girl."
+              /></picture>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__copyright">© 2023 Copyright Text</div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
