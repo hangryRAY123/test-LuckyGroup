@@ -1722,16 +1722,16 @@ button.focus-visible:focus,
 
 @-webkit-keyframes side-1 {
   to {
-    -webkit-transform: translate(-265px, 40px);
-    transform: translate(-265px, 40px);
+    -webkit-transform: translate(-215px, 40px);
+    transform: translate(-215px, 40px);
     offset-path: ray(90deg);
   }
 }
 
 @keyframes side-1 {
   to {
-    -webkit-transform: translate(-265px, 40px);
-    transform: translate(-265px, 40px);
+    -webkit-transform: translate(-215px, 40px);
+    transform: translate(-215px, 40px);
     offset-path: ray(90deg);
   }
 }
@@ -1747,16 +1747,16 @@ button.focus-visible:focus,
 
 @-webkit-keyframes side-2 {
   to {
-    -webkit-transform: translate(-220px, -120px);
-    transform: translate(-220px, -120px);
+    -webkit-transform: translate(-185px, -120px);
+    transform: translate(-185px, -120px);
     offset-path: ray(90deg);
   }
 }
 
 @keyframes side-2 {
   to {
-    -webkit-transform: translate(-220px, -120px);
-    transform: translate(-220px, -120px);
+    -webkit-transform: translate(-185px, -120px);
+    transform: translate(-185px, -120px);
     offset-path: ray(90deg);
   }
 }
@@ -1772,16 +1772,16 @@ button.focus-visible:focus,
 
 @-webkit-keyframes side-3 {
   to {
-    -webkit-transform: translate(-10px, -210px);
-    transform: translate(-10px, -210px);
+    -webkit-transform: translate(60px, -210px);
+    transform: translate(60px, -210px);
     offset-path: ray(90deg);
   }
 }
 
 @keyframes side-3 {
   to {
-    -webkit-transform: translate(-10px, -210px);
-    transform: translate(-10px, -210px);
+    -webkit-transform: translate(60px, -210px);
+    transform: translate(60px, -210px);
     offset-path: ray(90deg);
   }
 }
@@ -1797,16 +1797,16 @@ button.focus-visible:focus,
 
 @-webkit-keyframes side-4 {
   to {
-    -webkit-transform: translate(160px, -60px);
-    transform: translate(160px, -60px);
+    -webkit-transform: translate(210px, -60px);
+    transform: translate(210px, -60px);
     offset-path: ray(90deg);
   }
 }
 
 @keyframes side-4 {
   to {
-    -webkit-transform: translate(160px, -60px);
-    transform: translate(160px, -60px);
+    -webkit-transform: translate(210px, -60px);
+    transform: translate(210px, -60px);
     offset-path: ray(90deg);
   }
 }
@@ -1822,16 +1822,16 @@ button.focus-visible:focus,
 
 @-webkit-keyframes side-5 {
   to {
-    -webkit-transform: translate(160px, 70px);
-    transform: translate(160px, 70px);
+    -webkit-transform: translate(210px, 70px);
+    transform: translate(210px, 70px);
     offset-path: ray(90deg);
   }
 }
 
 @keyframes side-5 {
   to {
-    -webkit-transform: translate(160px, 70px);
-    transform: translate(160px, 70px);
+    -webkit-transform: translate(210px, 70px);
+    transform: translate(210px, 70px);
     offset-path: ray(90deg);
   }
 }
